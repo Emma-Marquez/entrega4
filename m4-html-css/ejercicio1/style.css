@@ -1,0 +1,18 @@
+*{font-family: 'Mulish', sans-serif;}
+div{width: 50%;margin: auto;}
+form{text-align: center;padding: 20px;width: 600px;height: 400px;}
+input,button{width: 500px;height: 50px;margin: 2px auto;box-sizing: border-box;}
+legend{text-align: center;color: #04146c;font-weight: 700;font-size: 32.64px;margin-bottom: 10px;}
+input[placeholder]{font-size:22.6px;font-weight: 400;color: #414166;}
+button{background-color: #15163d;color: antiquewhite;font-size: 22.6px;font-weight: 600;}
+/* 4. Para lograr el resultado final, se deberá
+trabajar con un form de 600px de ancho y
+400px de alto.
+5. El formulario deberá tener un padding de 20
+px y estar centrado en referencia a un
+contenedor padre (div), que tendrá a su vez
+50% de ancho y también estará centrado.
+6. Los campos del formulario tendrán un ancho
+de 500px y un alto de 50px.
+7. Se sumarán dos imágenes de fondo tanto en
+el div contenedor como así en el body. */
