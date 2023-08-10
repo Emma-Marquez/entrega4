@@ -1,0 +1,20 @@
+*{font-family: 'Roboto', sans-serif;}
+img{width: 100%;}
+body{box-sizing: content-box; margin: 0px;}
+main{width: 80%; padding: 10px;margin: auto;}
+h1{text-align: center;font-weight: 900;font-size: 58.5;color: #0a2ff1;}
+button{width: 300px;height: 50px;margin-bottom: 10px;}
+footer{background-color: #15163d;height: 10px;}
+p{font-size: 25.2px;font-weight: 400;color: #000000;}
+h3{font-size: 25.2px;font-weight: 700;color: #0a2ff1;}
+button{background-color: #0a2ff1;font-size: 26.6px;font-weight: 400;color: antiquewhite;border: 0px;}
+/* Utilizar las propiedades: font-family,
+font-size, color, background-color, width,
+height, padding y margin.
+
+
+7. Para lograr que la imagen de fondo del
+header se vea correctamente, sumaremos la
+propiedad background-size con el valor
+contain.
+8. El footer tendrá un ancho al 100%. */

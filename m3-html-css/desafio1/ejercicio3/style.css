@@ -1,0 +1,22 @@
+legend{text-align: center;font-weight: 700;font-size: 24px;color: #04146c;}
+input,button{display: block;margin: auto;width: 500px;height: 50px;padding: 10px;margin-bottom: 10px;}
+a{text-align: center;display: block;font-weight: 400;color: #0a2ff1;font-size: 18.6px;}
+*{font-family: 'Mulish', sans-serif;box-sizing: content-box;}
+input[placeholder]{font-size:18.6px;font-weight: 400;color: #414166;}
+form{width: 500px;}
+button{font-weight: 600;font-size: 20px;color:antiquewhite ;background-color: #0a2ff1;}
+/* Utilizar las propiedades: font-family,
+font-size, color, background-color, width,
+height, padding y margin.
+Recordar especificar la tipografía en button
+e input pues no heredan la tipografía general.
+6. Los input y el button tendrán un width de
+500px y un height de 50px. También se les
+agregará un margin-bottom de 10px y un
+padding general también de 10px.
+7. Con box-sizing recordar trabajar en el body
+para que los padding y los bordes no afecten
+a los elementos.
+Nota: Recordemos que el valor en margin:auto nos
+permite centrar los elementos como en el caso del
+form que aparte posee un width de 500px. */
