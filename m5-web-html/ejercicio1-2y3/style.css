@@ -1,11 +1,103 @@
-body{box-sizing:content-box;margin: 0pt;}
-*{font-family: 'Roboto', sans-serif;}
-div{background-color: white;margin-top: 15px;padding-top: 15px;}
-#logo{width: 5%;margin-left: 15px;margin-right: 20px;vertical-align: middle;}
-a{margin-right: 30px;font-size: 18pt;color: #04146c;font-weight: 400;text-decoration: none;vertical-align: sub;}
-.casa{font-weight: 700;}
-img{width: 100%;}
-.barra{background-color: #0a2ff1;margin-top: 0pt; padding-top: 0pt;height: 20px;}
-h1{font-weight: 900;font-size: 72pt;color: #0a2ff1;}
-h1,p{text-align: center;}
-p{font-weight: 400;font-size: 26pt;color: #04146c;}
+body{
+    box-sizing:content-box;
+    margin: 0pt;
+    position: relative;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    background-color: white;margin-top: 15px;padding-top: 15px;
+}
+#logo{
+    width: 5%;
+    margin-left: 15px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+a{
+    margin-right: 30px;
+    font-size: 18pt;
+    color: #04146c;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: sub;
+}
+.casa{
+    font-weight: 700;
+}
+img{
+    width: 100%;
+}
+.barra{
+    background-color: #0a2ff1;
+    margin-top: 0pt; 
+    padding-top: 0pt;
+    height: 20px;
+}
+h1{
+    font-weight: 900;
+    font-size: 72pt;
+    color: #0a2ff1;
+}
+h1,p{
+    text-align: center;
+}
+p{
+    font-weight: 400;
+    font-size: 26pt;
+    color: #04146c;
+}
+#texto{
+    width: 45%;
+    background-color: transparent;
+    margin-top: 0px;
+}
+#texto p{
+    font-size: 18pt;
+    font-weight: 400;
+    color: #04146c;
+    margin-top: 2px;
+}
+#texto h1{
+    font-size: 34pt;
+    font-weight: 900 ;
+    margin-top: 0px;
+}
+h2{
+    font-size: 18pt;
+    font-weight: 700;
+    color: #04146c;
+    margin-bottom: 0px;
+}
+
+.contenedor{
+    position: relative; 
+    display: inline-block;
+}
+.ultimo{
+    margin-bottom: 62px;
+}
+footer{
+    display: inline-block;
+    width: 100%;
+    z-index: 100;
+    background-color: #3957f1;
+    height: 100px;
+}
+#logoblanco{
+    width: 100px;
+    margin-left: 23px;
+    margin-top: 38px;
+}
+#imagenazul{
+    width:100%;
+}
+.contenedorimagen{
+    position: absolute;
+    background-color: transparent;
+    width: 50%;
+    position: absolute;
+    bottom: 45px;
+    right: 0;
+}

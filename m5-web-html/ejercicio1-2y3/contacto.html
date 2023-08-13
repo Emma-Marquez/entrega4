@@ -1,12 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>contacto</title>
+    <link rel="stylesheet" href="style-contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <nav>
+        <img src="../recursos/M5-logo-azul.svg" alt="">
+        <a  href="index.html">Home</a>
+        <a href="" id="contacto">Contacto</a>
+    </nav>
+    <p>¿Querés que nos contactemos con vos?</p>
+    <div>
+        <form action="" method="post">
+            <legend>Dejanos tu consulta:</legend>
+            <label for="">Nombre completo <strong>*</strong></label>
+            <input type="text">
+            <label for="">Email <strong>*</strong></label>
+            <input type="text">
+            <label for="">Comentario <strong>*</strong></label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <button type="reset" id="resetear">Resetear</button>
+            <button type="submit" id="enviar">Enviar</button>
+        </form>
+    </div>
 </body>
 </html>
