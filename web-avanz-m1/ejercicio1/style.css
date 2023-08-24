@@ -1,0 +1,14 @@
+@font-face {
+    font-family: coolvetica;
+    src: url('https://fonts.cdnfonts.com/css/coolvetica');
+}
+
+                                                
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');               
+*{text-align: center;}
+
+h1{font-size: 90pt;color: #0a2ff1;font-family: 'Coolvetica', sans-serif;}
+p{font-size: 30pt;color: #04146c;font-family: 'Roboto', sans-serif;}
+button{font-family: 'Roboto', sans-serif;font-size: 30pt;border: solid #04146c 3px;padding:10px 40px;box-sizing: content-box;}
+#generador{font-size: 30pt;background-color: #0a2ff1;color: antiquewhite;display: block;width: 400px;margin:20px auto;}
+#paletas{color: #04146c;background-color: transparent;display: block;width:400px;margin:auto;}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{font-family: 'Roboto', sans-serif;
+box-sizing: border-box;}
+body{display: flex;}
+h1{font-size: 64px;color: #0a2ff1;font-weight: 700;}
+#herramienta{font-size: 32px;font-weight: 300;}
+#diseño{font-size: 16px;font-weight: 400;}
+strong{font-weight: 700;}
+p{color: #04146c;}
+#paleta{margin-top: 60px;margin-right: 30px;}
+#contenedor{display: inline-block;width: 70%;margin-top: 50px;}
+#puntuacion{display: inline-block;width: 30%;}
+
+
+/* Utilizar en este caso las tipografías desde
+Google Fonts, a través de @import. Prestar
+importante atención en descargar todas las
+variantes del eje weight necesarias (light,
+regular, bold, etc.).
+5. Descargar las imágenes y el texto necesarios
+desde la sección Descargas debajo.  
+7. Este ejercicio requiere utilizar propiedades
+como display para el trabajo con flex,
+color, font-size, color, font-weight,
+width, height, entre otras.
+8. Si bien proponemos comenzar el ejercicio
+utilizando px, sugerimos -dada la posible
+proporcionalidad entre los tamaños de los
+textos- utilizar em o rem para trabajar y así
+practicar su utilización e implementación.
+9. También trabajar con selectores
+descendentes, e id o en su defecto clases
+para lograr el resultado final.
+10. A su vez, la imagen de la paleta no sufrirá
+ningún cambio en su tamaño pero la imagen
+de la puntuación tendrá que tener 30% de
+width para alcanzar el resultado final.
+11. Otros elementos necesarios serán la
+incorporación de párrafos, enunciado,
+imágenes así como contenedores. Los
+contenedores deben tener 30% de ancho y
+estar ubicados hacia el centro del contenedor
+principal. Se ubican a través de herramientas
+del trabajo con flex ya conocidas en el curso
+de Desarrollo web con HTML, requisito para
+poder realizar este curso.*/

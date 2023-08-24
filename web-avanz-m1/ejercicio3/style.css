@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: "coolvetica";
+    src: url("./recursos/coolvetica\ rg.otf");
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+  
+*{box-sizing: border-box;font-family: 'Roboto', sans-serif;}
+.contenedor{display: flex;width: 100%;margin: auto;justify-content: space-evenly;}
+.contenedor div{width: 25%;margin: 30px;padding: 10px;color: #04146c;font-size: 18pt;background-color: #eff2ff;}
+p{text-align: justify;}
+img{width: 30%;}
+h1{font-family: "coolvetica";font-size: 120px;color: #0a2ff1;}
+header p{font-weight: 300;font-size: 40px;color: #04146c;}
+strong{font-weight: 700;}
+h6{font-weight: 300;font-size: 18pt;font-style: italic;}
+h5{font-weight: 900;}
+/* Importar las tipografías desde Google Fonts, a
+través de @import, asegurándote de
+descargar todas las variantes del eje weight
+necesarias (light, regular, bold, etc.) así
+como la fuente que se encuentra en la sección
+de descargas, a través de @font-face.
+7. Trabajar con display, justify content y
+align-items para poder lograr el resultado
+final. Todas estas propiedades son vistas en el
+curso de Desarrollo web con HTML previo a
+este curso.
+8. Trabajar con elementos como header, main,
+enunciados, span, imágenes, section, así
+como utilizar clases o en su defecto ids
+según sea necesario.
+9. Es importante trabajar con selectores
+descendentes y selectores grupales para
+lograr el resultado final.
+10. Los div que se encuentran dentro del main
+deberán tener 25% de width así como un
+padding de 1em y estar alineados
+horizontalmente con space-evenly.
+11. La imagen de la puntuación tendrá un width
+al 30% para poder lograr el resultado final.
+ */
