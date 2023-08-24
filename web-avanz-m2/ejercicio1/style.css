@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "coolvetica";
+    src: url("./Recursos/coolvetica\ rg\ \(2\).otf");
+  }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+*{box-sizing: border-box;}
+h1{
+    font-family: "coolvetica";
+    font-size: 120px;
+    color: #0a2ff1;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #0a2ff1;
+}
+img{
+    width: 25%;
+}
+#apple{
+    width: 18%;
+}
+img{
+    width: 25%;
+}
+div{
+    width: 20%;
+    padding: 1em;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #eff2ff;
+}
+main{
+    display: flex;
+    padding: 1em;
+    justify-content: space-evenly;
+}
+p{
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #04146c;
+}
+/* 
+7. Los div deben tener un width de 20% y un
+padding de 1em. También el main que los
+contendrá tendrá un 1em de padding y los
+alineará con space-evenly.
+8. Dentro de cada div también utilizaremos
+flex pero con la dirección column.
+9. Prestar importante atención a las
+características regular y bold en la
+referencia al momento de trabajar con la
+regla font-face.
+10. Los h2 tendrán un tamaño de 30px, los h1
+120px y los párrafos 24px.
+11. El icono de Apple tendrá un tamaño de width
+de 18% diferente al resto de las imágenes que
+tendrán un ancho de 25% */

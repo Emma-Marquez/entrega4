@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+h2{
+    font-weight: 400;
+    font-size: 30pt;
+    color: #0a2ff1;
+}
+h1{
+    font-weight: 900;
+    font-size: 60pt;
+    color: #0a2ff1;
+}
+p{
+    font-weight: 400;
+}
+strong{
+    font-weight: 700;
+}
+p,strong{
+    font-size: 20pt;
+    color: #04146c;
+}
+button{
+    width: 400px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 22pt;
+    background-color: #0a2ff1;
+    color: antiquewhite;
+    margin-top: 20px;
+    border: none;
+}
+
+/* 7. El botón deberá tener un ancho de 400px por
+70px de alto.
+8. Trabajar con elementos como strong, p, h1,
+h2 y button.
+9. Es importante trabajar con selectores
+descendentes y selectores grupales para
+lograr el resultado final */
